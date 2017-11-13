@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NASA Picture of the Day</title>
+    <title>Refuge Restrooms</title>
   </head>
   <body align="center">
-    <h1>NASA Picture of the Day</h1>
-    <h2>{{ info['title'] }}</h2>
-	   <p>{{ info['date'] }}</p>
-    <image src="{{ info['hdurl'] }}" width="100%"></image>
-    <p>{{ info['explanation'] }}</p>
+    <h1>Refuge Restrooms</h1>
+	   <p>{{ info['name'] }}</p>
+     <p>Location: {{info['street']}} </p>
+     <p>Accessibility: {{ info['name'] }}</p>
+     <p>Unisex: {{ info['unisex'] }}</p>
+     <p>Additional Information: {{ info['comment'] }}</p>
+     <p>Directions: {{ info['directions'] }}</p>
   </body>
 </html>
